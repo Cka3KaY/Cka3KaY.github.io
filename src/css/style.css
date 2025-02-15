@@ -1,12 +1,14 @@
 body {
   background-color: #24273a;
 }
+cursor {
+  cursor: url(./assets/icons8-cursor.svg);
+}
 
 /* Main */
 #div1 {
-  background-color: #363a4f;
   margin: auto;
-  height: 200px;
+  height: 100%;
   width: 100%;
 }
 
@@ -19,5 +21,5 @@ body {
   margin-right: auto;
 
   /* Size */
-  font-size: 80px;
+  font-size: 60px;
 }

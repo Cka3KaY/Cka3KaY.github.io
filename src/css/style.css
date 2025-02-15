@@ -1,22 +1,23 @@
 body {
   background-color: #24273a;
 }
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2")
-      format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff")
-      format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* Main */
+#div1 {
+  background-color: #363a4f;
+  margin: auto;
+  height: 200px;
+  width: 100%;
+}
+
 #header1 {
   color: #ca9ee6;
+
+  /* centered */
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  size: 100;
+
+  /* Size */
+  font-size: 80px;
 }

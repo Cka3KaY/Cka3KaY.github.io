@@ -17,11 +17,31 @@ body {
   margin-right: auto;
 
   /* Size */
-  font-size: 13px;
+  font-size: 12px;
+  /* Adjust based on screen size */
+  white-space: pre-wrap;
+  /* Allows text to wrap */
+  overflow-x: auto;
+  /* Adds horizontal scrolling if needed */
+  text-align: center;
 }
 
 
 .Blinkies {
-  display: grid;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows items to wrap if needed */
+  justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+
+.Blinkies img {
+  max-width: 100%;
+  max-width: 100%;
+  /* Ensures blinkies don’t overflow */
+  height: auto;
+  /* Maintains aspect ratio */
+  object-fit: contain;
 }

@@ -61,14 +61,21 @@ body {
 
 @media (max-width: 480px) {
 
-  /* Phones */
+  /* Small screens */
   #header1 {
     font-size: 8px;
-    /* Reduce size for small screens */
+    /* Smaller text */
   }
 
   .Blinkies img {
-    width: 80px;
-    /* Scale down images */
+    max-width: 60px;
+    /* Scale down blinkies */
   }
+}
+
+pre {
+  overflow-x: auto;
+  /* Allows horizontal scrolling instead of breaking */
+  display: block;
+  max-width: 100%;
 }

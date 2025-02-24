@@ -117,4 +117,9 @@ pre {
   #header1 {
     font-size: 5px;
   }
+
+  .pizza {
+    height: 250px;
+    width: 250px;
+  }
 }

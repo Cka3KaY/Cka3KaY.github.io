@@ -113,3 +113,8 @@ pre {
     justify-content: center;
   }
 }
+@media (max-width: 400px) {
+  #header1 {
+    font-size: 5px;
+  }
+}

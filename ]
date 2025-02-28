@@ -8,6 +8,15 @@ body {
   height: 100%;
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
+.gallery-link {
+  color: #ca9ee6;
+}
+.project-link {
+  color: #ca9ee6;
+}
 #header1 {
   color: #ca9ee6;
 
@@ -26,38 +35,6 @@ body {
   text-align: center;
 }
 
-/* TOPBAR LINKS START */
-a {
-  text-decoration: none;
-}
-.topbar-links {
-  display: flex;
-}
-.gallery-img {
-  width: 20px;
-  height: 20px;
-}
-.projects-img {
-  width: 20px;
-  height: 20px;
-}
-.about-img {
-  width: 21px;
-  height: 21px;
-}
-.gallery-link {
-  color: #ca9ee6;
-  margin-right: 3px;
-}
-.about-link {
-  color: #ca9ee6;
-  margin-left: 3px;
-}
-.project-link {
-  color: #ca9ee6;
-  margin-left: 3px;
-}
-/* TOPBAR LINKS END */
 .Blinkies {
   display: flex;
   flex-wrap: wrap;
@@ -110,6 +87,18 @@ pre {
   overflow-x: auto;
   max-width: 100%;
 }
+.topbar-links {
+  display: flex;
+}
+.gallery-img {
+  width: 20px;
+  height: 20px;
+}
+.projects {
+  width: 20px;
+  height: 20px;
+}
+
 @media (max-width: 768px) {
   /* Tablets */
   #header1 {

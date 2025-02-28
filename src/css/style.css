@@ -36,19 +36,23 @@ a {
 .gallery-img {
   width: 20px;
   height: 20px;
+  vertical-align: middle;
 }
 .projects-img {
   width: 20px;
   height: 20px;
   margin-right: 3px;
+  vertical-align: middle;
 }
 .about-img {
   width: 21px;
   height: 21px;
+  vertical-align: middle;
 }
 .gallery-link {
   color: #ca9ee6;
   margin-right: 3px;
+  text-align: left;
 }
 .about-link {
   color: #ca9ee6;
@@ -57,6 +61,15 @@ a {
 .project-link {
   color: #ca9ee6;
   margin-left: 3px;
+}
+.home-link {
+  color: #ca9ee6;
+  margin-right: 6px;
+}
+.home-img {
+  width: 21px;
+  height: 21px;
+  vertical-align: middle;
 }
 /* TOPBAR LINKS END */
 /* ABOUT START */

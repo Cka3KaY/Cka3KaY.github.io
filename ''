@@ -27,9 +27,7 @@
       <!--TOPBAR LINKS START-->
       <div class="topbar-links">
         <div>
-          <a href="index.html" class="home-link"
-            >Home<img class="home-img" src="assets/Home.png" alt=""
-          /></a>
+          <a href="index.html">Home</a>
         </div>
 
         <div>
@@ -43,7 +41,7 @@
         </div>
 
         <div>
-          <a href="./src/projects.html" class="project-link"
+          <a href="" class="project-link"
             >Projects<img
               class="projects-img"
               src="./assets/projects.png"

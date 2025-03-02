@@ -79,6 +79,7 @@ a {
   border-radius: 10px;
   object-fit: cover;
   border: 1.5px solid #ca9ee6;
+  box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
 }
 .githubinreadme {
   color: #ca9ee6;
@@ -120,6 +121,7 @@ a {
   /* Space between image and text */
   position: relative;
   justify-content: space-between;
+  box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
 }
 
 .pizza {
@@ -128,6 +130,7 @@ a {
   border-radius: 10px;
   object-fit: cover;
   border: 1.5px solid #ca9ee6;
+  box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
 }
 
 .README {
@@ -156,14 +159,6 @@ pre {
     .pizza {
       width: 300px;
       height: 300px;
-      border-radius: 10px;
-      object-fit: cover;
-    }
-    .inspo-img {
-      width: 300px;
-      height: 300px;
-      border-radius: 10px;
-      object-fit: cover;
     }
   }
   .main {

@@ -72,25 +72,26 @@ a {
   vertical-align: middle;
 }
 /* TOPBAR LINKS END */
-/* GALLERY START */
+/*  TODO:GALLERY START */
 
+/* FIX: Table not displaying properly */
 .preview-button {
   background-color: #5b6078;
   border-radius: 10px;
   box-shadow: 1.4px 2.7px 2.7px hsl(0deg 0% 0% / 0.46);
   padding: 4px;
+  margin: 40px;
 }
-.main-table {
-  display: flex;
+.table {
+  display: inline-block;
+  column-count: 3;
 }
-
-/* GALLERY END */
+/*  TODO: GALLERY END */
 
 /* BLINKIES START */
 .Blinkies {
   display: flex;
   flex-wrap: wrap;
-  /* Allows items to wrap if needed */
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -99,9 +100,7 @@ a {
 .Blinkies img {
   max-width: 100%;
   max-width: 100%;
-  /* Ensures blinkies don’t overflow */
   height: auto;
-  /* Maintains aspect ratio */
   object-fit: contain;
 }
 
@@ -115,12 +114,10 @@ a {
   margin-top: 10px;
   color: #99d1db;
   display: flex;
-  align-items: flex-start;
   /* Align everything to the top */
   gap: 20px;
   /* Space between image and text */
   position: relative;
-  justify-content: space-between;
   box-shadow: 3.7px 7.4px 7.4px hsl(0deg 0% 0% / 0.39);
 }
 

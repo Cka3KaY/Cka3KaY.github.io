@@ -32,7 +32,6 @@ div.polaroid {
   border: 1px solid #ca9ee6;
   box-shadow: 2.9px 5.8px 5.8px hsl(0deg 0% 0% / 0.41);
   border-radius: 5px;
-  background-color: #363a4f;
 }
 
 .polaroid-img {
@@ -43,7 +42,6 @@ div.polaroid {
 div.container {
   text-align: center;
   padding: 10px 20px;
-  color: #ca9ee6;
 }
 /* Projects END */
 /* TOPBAR LINKS START */
@@ -213,7 +211,11 @@ pre {
     justify-content: center;
   }
 }
-/* Media requests */
+@media (max-width: 260px) {
+  #header1 {
+    font-size: 2px;
+  }
+}
 @media (max-width: 400px) {
   #header1 {
     font-size: 5px;
@@ -232,53 +234,5 @@ pre {
   .pizza {
     height: 250px;
     width: 250px;
-  }
-}
-@media (max-width: 414px) {
-  #header1 {
-    font-size: 9px;
-  }
-}
-@media (max-width: 500px) {
-  #header1 {
-    font-size: 9px;
-  }
-}
-@media (max-width: 506px) {
-  #header1 {
-    font-size: 9px;
-  }
-}
-@media (max-width: 380px) {
-  #header1 {
-    font-size: 8px;
-  }
-}
-@media (max-width: 320px) {
-  #header1 {
-    font-size: 7px;
-    margin-bottom: 20px;
-  }
-  .home-link {
-    font-size: 13px;
-  }
-  .gallery-link {
-    font-size: 13px;
-  }
-  .project-link {
-    font-size: 13px;
-  }
-  .about-link {
-    font-size: 13px;
-  }
-}
-@media (max-width: 322px) {
-  #header1 {
-    font-size: 6px;
-  }
-}
-@media (max-width: 342px) {
-  #header1 {
-    font-size: 6px;
   }
 }

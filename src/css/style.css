@@ -33,19 +33,16 @@ div.polaroid {
   box-shadow: 2.9px 5.8px 5.8px hsl(0deg 0% 0% / 0.41);
   border-radius: 5px;
   background-color: #363a4f;
-  margin: 10px;
-}
-
-.polaroid-img {
-  width: 100px;
-  height: 200px;
-}
-
-div.container {
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
   text-align: center;
   padding: 10px 20px;
-  color: #ca9ee6;
+  p {
+    color: #ca9ee6;
+  }
 }
+
 /* Projects END */
 /* TOPBAR LINKS START */
 a {
@@ -125,6 +122,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 15px;
 }
 
 .cliBlinkie:hover {
@@ -150,7 +148,7 @@ a {
   background-color: #363a4f;
   border-radius: 10px;
   margin-top: 10px;
-  color: #99d1db;
+  color: #f4dbd6;
   display: flex;
   align-items: flex-start;
   /* Align everything to the top */
@@ -173,7 +171,7 @@ a {
 .README {
   top: 0;
   left: 0;
-  color: #fab387;
+  color: #8aadf4;
 }
 
 pre {
